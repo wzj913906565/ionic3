@@ -92,5 +92,48 @@ export class MyPage {
 }
 ```
 
+### 可输入弹出框                                                                                                           [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/prompt)
+
+可输入弹出框提供了可输入数据或者信息,例如登录信息过期,提示用户输入密码.
+
+![](/assets/可输入信息弹出框ios.png)![](/assets/可输入信息弹出框Android.png)
+
+```
+import { AlertController } from 'ionic-angular';
+
+export class MyPage {
+  constructor(public alertCtrl: AlertController) {
+  }
+
+  showPrompt() {
+    let prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: "Enter a name for this new album you're so keen on adding",
+      inputs: [
+        {
+          name: 'title',
+          placeholder: 'Title'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
+}
+```
+
 
 
