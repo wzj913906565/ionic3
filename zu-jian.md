@@ -72,3 +72,5 @@ export class MyPage {
 
 单选框弹出框
 
+多选弹出框
+
