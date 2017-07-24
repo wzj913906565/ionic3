@@ -70,5 +70,5 @@ export class MyPage {
 
 确认同意弹出框
 
-复选框弹出框
+单选框弹出框
 
