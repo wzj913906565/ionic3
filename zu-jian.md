@@ -60,5 +60,5 @@ export class MyPage {
 
 要了解更多信息，请查看API文档。
 
-其中包括
+其中包括:
 
