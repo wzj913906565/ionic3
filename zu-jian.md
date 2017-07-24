@@ -63,12 +63,10 @@ export class MyPage {
 其中包括:
 
 * [Basic Alerts](http://ionicframework.com/docs/components/#alerts)\(基本弹出框\)
-* [Prompt Alerts](http://ionicframework.com/docs/components/#alert-prompt)
-* [Confirmation Alerts](http://ionicframework.com/docs/components/#alert-confirm)
-* [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)
-* [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)
-
-
+* [Prompt Alerts](http://ionicframework.com/docs/components/#alert-prompt)\(可滚动内容的弹出框\)
+* [Confirmation Alerts](http://ionicframework.com/docs/components/#alert-confirm)\(同意否决弹出框\)
+* [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)\(单选弹出框\)
+* [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)\(多选弹出框\)
 
 
 
