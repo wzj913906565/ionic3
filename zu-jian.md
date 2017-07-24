@@ -68,7 +68,7 @@ export class MyPage {
 
 确认提醒弹出框
 
-
+确认同意弹出框
 
 复选框弹出框
 
