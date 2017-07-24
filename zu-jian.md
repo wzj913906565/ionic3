@@ -14,5 +14,41 @@ ionic app是由高级组件构建的,组件允许你快速地为你的应用程�
 
 #### 基本用法
 
+```
+import { ActionSheetController } from 'ionic-angular';
+
+export class MyPage {
+  constructor(public actionSheetCtrl: ActionSheetController) {
+  }
+
+  presentActionSheet() {
+    let actionSheet = this.actionSheetCtrl.create({
+      title: 'Modify your album',
+      buttons: [
+        {
+          text: 'Destructive',
+          role: 'destructive',
+          handler: () => {
+            console.log('Destructive clicked');
+          }
+        },{
+          text: 'Archive',
+          handler: () => {
+            console.log('Archive clicked');
+          }
+        },{
+          text: 'Cancel',
+          role: 'cancel',
+          handler: () => {
+            console.log('Cancel clicked');
+          }
+        }
+      ]
+    });
+    actionSheet.present();
+  }
+}
+```
+
 
 
