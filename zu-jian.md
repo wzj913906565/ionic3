@@ -10,7 +10,7 @@ ionic app是由高级组件构建的,组件允许你快速地为你的应用程�
 
 要了解更多信息，请查看API文档。
 
-![](/assets/import.png)
+![](/assets/import.png)![](/assets/底部弹出框Android.png)
 
 #### 基本用法                                                                                                                                                   [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/action-sheets/basic)
 
@@ -72,7 +72,7 @@ export class MyPage {
 
 基本弹出框常常应用于一些新信息\(应用程序的更改,新特性等\),一些情况的确认,或者用户是否确认.
 
-![](/assets/基本弹出框.png)
+![](/assets/基本弹出框.png)![](/assets/基本弹出框Android.png)
 
 ```
 import { AlertController } from 'ionic-angular';
@@ -91,10 +91,6 @@ export class MyPage {
   }
 }
 ```
-
-
-
-
 
 
 
