@@ -12,7 +12,7 @@ ionic app是由高级组件构建的,组件允许你快速地为你的应用程�
 
 ![](/assets/import.png)
 
-#### 基本用法
+#### 基本用法                                                                                                                                                   [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/action-sheets/basic)
 
 ```
 import { ActionSheetController } from 'ionic-angular';
