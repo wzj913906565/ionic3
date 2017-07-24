@@ -172,5 +172,7 @@ export class MyPage {
 }
 ```
 
+#### 单选弹出框                                                                                                                                        [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/radio)
 
+单选弹出框sh一种确认弹出框,让用户做出选择,提供给用户一个选择的选项,但是只能选择一个选项
 
