@@ -92,7 +92,7 @@ export class MyPage {
 }
 ```
 
-### 可输入弹出框                                                                                                           [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/prompt)
+#### 可输入弹出框                                                                                                                                        [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/prompt)
 
 可输入弹出框提供了可输入数据或者信息,例如登录信息过期,提示用户输入密码.
 
