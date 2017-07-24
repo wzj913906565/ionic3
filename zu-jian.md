@@ -64,7 +64,7 @@ export class MyPage {
 
 * [Basic Alerts](http://ionicframework.com/docs/components/#alerts)\(基本弹出框\)
 * [Prompt Alerts](http://ionicframework.com/docs/components/#alert-prompt)\(可输入弹出框\)
-* [Confirmation Alerts](http://ionicframework.com/docs/components/#alert-confirm)\(同意否决弹出框\)
+* [Confirmation Alerts](http://ionicframework.com/docs/components/#alert-confirm)\(确认信息弹出框\)
 * [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)\(单选弹出框\)
 * [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)\(多选弹出框\)
 
@@ -134,6 +134,8 @@ export class MyPage {
   }
 }
 ```
+
+#### 确认信息弹出框                                                                                                                                  [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/confirm) 
 
 
 
