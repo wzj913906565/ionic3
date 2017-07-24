@@ -257,3 +257,15 @@ export class MyPage {
 
 徽章是通常向用户传达数值的小组件。 它们通常用于一个项目。
 
+![](/assets/徽章ios.png)![](/assets/徽章Android.png)
+
+```
+<ion-item>
+  <ion-icon name="logo-twitter" item-start></ion-icon>
+  Followers
+  <ion-badge item-end>260k</ion-badge>
+</ion-item>
+```
+
+
+
