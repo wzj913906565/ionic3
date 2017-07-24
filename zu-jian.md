@@ -68,9 +68,11 @@ export class MyPage {
 * [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)\(单选弹出框\)
 * [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)\(多选弹出框\)
 
-#### 基本弹出框                                                                                                        [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/basic)
+#### 基本弹出框                                                                                                                                                [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/basic)
 
 基本弹出框常常应用于一些新信息\(应用程序的更改,新特性等\),一些情况的确认,或者用户是否确认.
+
+![](/assets/基本弹出框.png)
 
 ```
 import { AlertController } from 'ionic-angular';
@@ -92,5 +94,7 @@ export class MyPage {
 
 
 
---
+
+
+
 
