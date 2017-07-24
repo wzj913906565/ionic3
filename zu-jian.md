@@ -68,21 +68,7 @@ export class MyPage {
 * [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)\(单选弹出框\)
 * [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)\(多选弹出框\)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### 基本弹出框
 
 
 
