@@ -135,7 +135,42 @@ export class MyPage {
 }
 ```
 
-#### 确认信息弹出框                                                                                                                                  [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/confirm) 
+#### 确认信息弹出框                                                                                                                                  [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/confirm)
+
+当用户是否需要继续,确认选择这时候确认信息弹出框就会被用到,最典型的例子就是删除通讯录确认删除的弹出框.
+
+![](/assets/确认信息弹出框ios.png)![](/assets/确认信息弹出框安卓.png)
+
+```
+import { AlertController } from 'ionic-angular';
+
+export class MyPage {
+  constructor(public alertCtrl: AlertController) {
+  }
+
+  showConfirm() {
+    let confirm = this.alertCtrl.create({
+      title: 'Use this lightsaber?',
+      message: 'Do you agree to use this lightsaber to do good across the intergalactic galaxy?',
+      buttons: [
+        {
+          text: 'Disagree',
+          handler: () => {
+            console.log('Disagree clicked');
+          }
+        },
+        {
+          text: 'Agree',
+          handler: () => {
+            console.log('Agree clicked');
+          }
+        }
+      ]
+    });
+    confirm.present();
+  }
+}
+```
 
 
 
