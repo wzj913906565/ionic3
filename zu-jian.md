@@ -62,15 +62,13 @@ export class MyPage {
 
 其中包括:
 
-基本弹出框
+* [Basic Alerts](http://ionicframework.com/docs/components/#alerts)\(基本弹出框\)
+* [Prompt Alerts](http://ionicframework.com/docs/components/#alert-prompt)
+* [Confirmation Alerts](http://ionicframework.com/docs/components/#alert-confirm)
+* [Radio Alerts](http://ionicframework.com/docs/components/#alert-radio)
+* [Checkbox Alerts](http://ionicframework.com/docs/components/#alert-checkbox)
 
-提示弹出框
 
-确认提醒弹出框
 
-确认同意弹出框
 
-单选框弹出框
-
-多选弹出框
 
