@@ -174,5 +174,40 @@ export class MyPage {
 
 #### 单选弹出框                                                                                                                                        [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/radio)
 
-单选弹出框sh一种确认弹出框,让用户做出选择,提供给用户一个选择的选项,但是只能选择一个选项
+单选弹出框sh一种确认弹出框,让用户做出选择,提供给用户一个选择的选项,但是只能选择一个选项.
+
+![](/assets/单选弹出框ios.png)![](/assets/单选弹出框Android.png)
+
+```
+import { AlertController } from 'ionic-angular';
+
+export class MyPage {
+  constructor(public alertCtrl: AlertController) {
+  }
+
+  showRadio() {
+    let alert = this.alertCtrl.create();
+    alert.setTitle('Lightsaber color');
+
+    alert.addInput({
+      type: 'radio',
+      label: 'Blue',
+      value: 'blue',
+      checked: true
+    });
+
+    alert.addButton('Cancel');
+    alert.addButton({
+      text: 'OK',
+      handler: data => {
+        this.testRadioOpen = false;
+        this.testRadioResult = data;
+      }
+    });
+    alert.present();
+  }
+}
+```
+
+
 
