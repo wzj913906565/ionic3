@@ -255,5 +255,5 @@ export class MyPage {
 
 ### 三.徽章                                                                                                                     [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/badges)
 
-
+徽章是通常向用户传达数值的小组件。 它们通常用于一个项目。
 
