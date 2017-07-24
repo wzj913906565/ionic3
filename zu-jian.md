@@ -209,5 +209,9 @@ export class MyPage {
 }
 ```
 
+#### 多选弹出框                                                                                                                                             [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/alerts/checkbox)
 
+多选弹出框是一种确认弹出框，但使用多选框组件提供多种选择。 它们为用户提供一组可供选择的选项。
+
+![](/assets/复选弹出框ios.png)![](/assets/复选弹出框Android.png)
 
