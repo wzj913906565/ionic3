@@ -267,5 +267,11 @@ export class MyPage {
 </ion-item>
 ```
 
+徽章也可以赋予任何颜色属性：
+
+```
+<ion-badge color="secondary"></ion-badge>
+```
+
 
 
