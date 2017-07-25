@@ -293,5 +293,41 @@ export class MyPage {
 * [Icon Buttons](http://ionicframework.com/docs/components/#icon-buttons)\(图标按钮\)
 * [Buttons In Components](http://ionicframework.com/docs/components/#buttons-in-components)\(组件中的按钮\)
 
+#### 默认样式
+
+
+
+#### outline样式
+
+
+
+#### 文字样式
+
+
+
+#### 圆边角样式
+
+
+
+#### block样式
+
+
+
+#### 宽度全屏样式
+
+
+
+#### 按钮大小
+
+
+
+#### 图标按钮
+
+
+
+#### 组件中的按钮
+
+#### 
+
 
 
