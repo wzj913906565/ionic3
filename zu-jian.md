@@ -281,3 +281,17 @@ export class MyPage {
 
 详细信息,请参考API;
 
+其中包括:
+
+* [Default Style](http://ionicframework.com/docs/components/#buttons)\(默认样式\)
+* [Outline Style](http://ionicframework.com/docs/components/#outline-buttons)\(outline文字样式\)
+* [Clear Style](http://ionicframework.com/docs/components/#clear-buttons)\(文字样式\)
+* [Round Buttons](http://ionicframework.com/docs/components/#round-buttons)\(圆边角样式\)
+* [Block Buttons](http://ionicframework.com/docs/components/#block-buttons)\(block样式\)
+* [Full Buttons](http://ionicframework.com/docs/components/#full-buttons)\(宽度全屏样式\)
+* [Button Sizes](http://ionicframework.com/docs/components/#button-sizes)\(按钮大小\)
+* [Icon Buttons](http://ionicframework.com/docs/components/#icon-buttons)
+* [Buttons In Components](http://ionicframework.com/docs/components/#buttons-in-components)
+
+
+
