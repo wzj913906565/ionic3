@@ -279,3 +279,5 @@ export class MyPage {
 
 由于可访问性原因，按钮使用标签&lt;button&gt;元素，但是ion-button使用指令进行了增强。
 
+详细信息,请参考API;
+
