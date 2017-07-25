@@ -299,6 +299,18 @@ export class MyPage {
 <button ion-button>Button</button>
 ```
 
+color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松覆盖：
+
+![](/assets/默认按钮ios.png)![](/assets/默认按钮Android.png)
+
+```
+<button ion-button color="light">Light</button>
+<button ion-button>Default</button>
+<button ion-button color="secondary">Secondary</button>
+<button ion-button color="danger">Danger</button>
+<button ion-button color="dark">Dark</button>
+```
+
 #### outline样式
 
 #### 文字样式
