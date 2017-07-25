@@ -290,8 +290,8 @@ export class MyPage {
 * [Block Buttons](http://ionicframework.com/docs/components/#block-buttons)\(block样式\)
 * [Full Buttons](http://ionicframework.com/docs/components/#full-buttons)\(宽度全屏样式\)
 * [Button Sizes](http://ionicframework.com/docs/components/#button-sizes)\(按钮大小\)
-* [Icon Buttons](http://ionicframework.com/docs/components/#icon-buttons)
-* [Buttons In Components](http://ionicframework.com/docs/components/#buttons-in-components)
+* [Icon Buttons](http://ionicframework.com/docs/components/#icon-buttons)\(图标按钮\)
+* [Buttons In Components](http://ionicframework.com/docs/components/#buttons-in-components)\(组件中的按钮\)
 
 
 
