@@ -325,17 +325,21 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 <button ion-button color="dark" outline>Dark Outline</button>
 ```
 
-#### 文字样式                                                                                                                                                   示例代码
+#### 文字样式                                                                                                                                                   [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/clear)
+
+要使用文字样式的按钮，只需添加清除属性：
+
+![](/assets/文字样式按钮ios.png)![](/assets/文字样式按钮Android.png)
 
 #### 圆边角样式                                                                                                                                               示例代码
 
 #### block样式                                                                                                                                                 示例代码
 
-#### 宽度全屏样式                                                                                                                                           示例代码 
+#### 宽度全屏样式                                                                                                                                           示例代码
 
 #### 按钮大小                                                                                                                                                   示例代码
 
-#### 图标按钮                                                                                                                                                   示例代码 
+#### 图标按钮                                                                                                                                                   示例代码
 
 #### 组件中的按钮                                                                                                                                            示例代码
 
