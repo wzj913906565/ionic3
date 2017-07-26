@@ -293,10 +293,10 @@ export class MyPage {
 * [Icon Buttons](http://ionicframework.com/docs/components/#icon-buttons)\(图标按钮\)
 * [Buttons In Components](http://ionicframework.com/docs/components/#buttons-in-components)\(组件中的按钮\)
 
-#### 默认样式
+#### 默认样式                                                                                                                                               [ 示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/basic)
 
 ```
-<button ion-button>Button</button>
+<button ion-button>Button</button> 
 ```
 
 color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松覆盖：
@@ -311,7 +311,19 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 <button ion-button color="dark">Dark</button>
 ```
 
-#### outline样式
+#### outline样式                                                                                                                                               [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/outline)
+
+要使用outline样式的按钮，只需添加outline属性：
+
+
+
+```
+<button ion-button color="light" outline>Light Outline</button>
+<button ion-button outline>Primary Outline</button>
+<button ion-button color="secondary" outline>Secondary Outline</button>
+<button ion-button color="danger" outline>Danger Outline</button>
+<button ion-button color="dark" outline>Dark Outline</button>
+```
 
 #### 文字样式
 
