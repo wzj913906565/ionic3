@@ -296,7 +296,7 @@ export class MyPage {
 #### 默认样式                                                                                                                                               [ 示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/basic)
 
 ```
-<button ion-button>Button</button> 
+<button ion-button>Button</button>
 ```
 
 color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松覆盖：
@@ -315,7 +315,7 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 
 要使用outline样式的按钮，只需添加outline属性：
 
-
+![](/assets/outline样式按钮ios.png)![](/assets/outline样式按钮Android.png)
 
 ```
 <button ion-button color="light" outline>Light Outline</button>
@@ -325,19 +325,19 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 <button ion-button color="dark" outline>Dark Outline</button>
 ```
 
-#### 文字样式
+#### 文字样式                                                                                                                                                   示例代码
 
-#### 圆边角样式
+#### 圆边角样式                                                                                                                                               示例代码
 
-#### block样式
+#### block样式                                                                                                                                                 示例代码
 
-#### 宽度全屏样式
+#### 宽度全屏样式                                                                                                                                           示例代码 
 
-#### 按钮大小
+#### 按钮大小                                                                                                                                                   示例代码
 
-#### 图标按钮
+#### 图标按钮                                                                                                                                                   示例代码 
 
-#### 组件中的按钮
+#### 组件中的按钮                                                                                                                                            示例代码
 
 #### 
 
