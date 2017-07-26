@@ -331,19 +331,118 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 
 ![](/assets/文字样式按钮ios.png)![](/assets/文字样式按钮Android.png)
 
-#### 圆边角样式                                                                                                                                               示例代码
+```
+<button ion-button color="light" clear>Light Clear</button>
+<button ion-button clear>Primary Clear</button>
+<button ion-button color="secondary" clear>Secondary Clear</button>
+<button ion-button color="danger" clear>Danger Clear</button>
+<button ion-button color="dark" clear>Dark Clear</button>
+```
 
-#### block样式                                                                                                                                                 示例代码
+#### 圆边角样式                                                                                                                                               [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/round)
 
-#### 宽度全屏样式                                                                                                                                           示例代码
+要创建一个带圆角的按钮，只需添加round属性：
 
-#### 按钮大小                                                                                                                                                   示例代码
+![](/assets/圆角按钮ios.png)![](/assets/圆角按钮Android.png)
 
-#### 图标按钮                                                                                                                                                   示例代码
+```
+<button ion-button color="light" round>Light Round</button>
+<button ion-button round>Primary Round</button>
+<button ion-button color="secondary" round>Secondary Round</button>
+<button ion-button color="danger" round>Danger Round</button>
+<button ion-button color="dark" round>Dark Round</button>
+```
 
-#### 组件中的按钮                                                                                                                                            示例代码
+#### block样式                                                                                                                                                 [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/block)
 
-#### 
+使按钮宽度占父元素的100%,这个按钮将会有diplay:block;属性
+
+![](/assets/block按钮ios.png)![](/assets/block按钮Android.png)
+
+```
+<button ion-button block>Block Button</button>
+```
+
+#### 宽度全屏样式                                                                                                                                           [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/full)
+
+添加full样式按钮也将使按钮占据其父宽度的100％。 但是，它也将删除按钮的左右边框。 当按钮伸展到显示屏的整个宽度时，此样式很有用。
+
+![](/assets/全屏宽度按钮ios.png)![](/assets/全品宽度按钮Android.png)
+
+```
+<button ion-button full>Full Button</button>
+```
+
+#### 按钮大小                                                                                                                                                   [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/sizes)
+
+添加大的属性以使按钮更大，或更小以使其更小：
+
+![](/assets/按钮大小ios.png)![](/assets/按钮大小Android.png)
+
+```
+<button ion-button small>Small</button>
+<button ion-button>Default</button>
+<button ion-button large>Large</button>
+```
+
+#### 图标按钮                                                                                                                                                   [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/icons)
+
+要向按钮添加图标，请在其中添加一个图标组件和一个position属性：
+
+![](/assets/图标按钮ios.png)![](/assets/图标按钮Android.png)
+
+```
+<!-- Float the icon left -->
+<button ion-button icon-left>
+  <ion-icon name="home"></ion-icon>
+  Left Icon
+</button>
+
+<!-- Float the icon right -->
+<button ion-button icon-right>
+  Right Icon
+  <ion-icon name="home"></ion-icon>
+</button>
+
+<!-- Only icon (no text) -->
+<button ion-button icon-only>
+  <ion-icon name="home"></ion-icon>
+</button>
+```
+
+#### 组件中的按钮                                                                                                                                            [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/buttons/components)
+
+虽然按钮可以自己使用，但它们可以轻松地在其他组件中使用。 例如，可以将按钮添加到列表项或导航栏。
+
+![](/assets/组件中的按钮.png)![](/assets/组件中按钮Android.png)
+
+```
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button icon-only>
+        <ion-icon name="contact"></ion-icon>
+      </button>
+    </ion-buttons>
+
+    <ion-buttons end>
+      <button ion-button icon-only>
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-list>
+  <ion-item>
+    Left Icon Button
+    <button ion-button outline item-end icon-left>
+      <ion-icon name="star"></ion-icon>
+      Left Icon
+    </button>
+  </ion-item>
+</ion-list>
+```
 
 
 
