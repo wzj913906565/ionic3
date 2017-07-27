@@ -479,11 +479,22 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 </ion-card>
 ```
 
-#### 含标题卡片                                                                                                                                              
+#### 含标题卡片
 
 就像普通页面一样，卡片可以自定义为包含标题。 要向卡添加标题，请在卡片内添加&lt;ion-card-header&gt;组件：
 
 ![](/assets/含标题ios.png)![](/assets/含标题卡片Android.png)
+
+```
+<ion-card>
+  <ion-card-header>
+    Header
+  </ion-card-header>
+  <ion-card-content>
+    The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.
+  </ion-card-content>
+</ion-card>
+```
 
 #### 列表卡片                                                                                                                                                  示例代码
 
