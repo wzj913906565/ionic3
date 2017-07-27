@@ -453,11 +453,41 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 其中包括:
 
 * [Basic Cards](http://ionicframework.com/docs/components/#cards)\(基本卡片\)
-* [Card Headers](http://ionicframework.com/docs/components/#card-header)
-* [Card Lists](http://ionicframework.com/docs/components/#card-list)
-* [Card Images](http://ionicframework.com/docs/components/#card-image)
-* [Background Images](http://ionicframework.com/docs/components/#card-background)
-* [Advanced Cards](http://ionicframework.com/docs/components/#advanced-cards)
+* [Card Headers](http://ionicframework.com/docs/components/#card-header)\(含头部卡片\)
+* [Card Lists](http://ionicframework.com/docs/components/#card-list)\(列表卡片\)
+* [Card Images](http://ionicframework.com/docs/components/#card-image)\(含图片的卡片\)
+* [Background Images](http://ionicframework.com/docs/components/#card-background)\(背景图片卡片\)
+* [Advanced Cards](http://ionicframework.com/docs/components/#advanced-cards)\(集成卡片\)
+
+#### 基本卡片                                                                                                                                                 [示例代码](/Basic Cards Card Headers Card Lists Card Images Background Images Advanced Cards)
+
+卡主要是一个CSS组件。 要使用基本卡片，请遵循以下结构：
+
+![](/assets/基本卡片ios.png)![](/assets/基本卡片Android.png)
+
+```
+<ion-card>
+
+  <ion-card-header>
+    Card Header
+  </ion-card-header>
+
+  <ion-card-content>
+    <!-- Add card content here! -->
+  </ion-card-content>
+
+</ion-card>
+```
+
+#### 含头部卡片                                                                                                                                              示例代码
+
+#### 列表卡片                                                                                                                                                  示例代码
+
+#### 含图片卡片                                                                                                                                              示例代码
+
+#### 背景图片卡片                                                                                                                                           示例代码
+
+#### 集成卡片                                                                                                                                                   示例代码
 
 
 
