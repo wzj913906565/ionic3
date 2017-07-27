@@ -453,7 +453,7 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 其中包括:
 
 * [Basic Cards](http://ionicframework.com/docs/components/#cards)\(基本卡片\)
-* [Card Headers](http://ionicframework.com/docs/components/#card-header)\(含头部卡片\)
+* [Card Headers](http://ionicframework.com/docs/components/#card-header)\(含标题卡片\)
 * [Card Lists](http://ionicframework.com/docs/components/#card-list)\(列表卡片\)
 * [Card Images](http://ionicframework.com/docs/components/#card-image)\(含图片的卡片\)
 * [Background Images](http://ionicframework.com/docs/components/#card-background)\(背景图片卡片\)
@@ -479,7 +479,11 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 </ion-card>
 ```
 
-#### 含头部卡片                                                                                                                                              示例代码
+#### 含标题卡片                                                                                                                                              
+
+就像普通页面一样，卡片可以自定义为包含标题。 要向卡添加标题，请在卡片内添加&lt;ion-card-header&gt;组件：
+
+![](/assets/含标题ios.png)![](/assets/含标题卡片Android.png)
 
 #### 列表卡片                                                                                                                                                  示例代码
 
