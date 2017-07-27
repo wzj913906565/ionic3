@@ -600,7 +600,130 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 </ion-content>
 ```
 
-#### 集成卡片                                                                                                                                                   示例代码
+然后，在页面的Sass文件中：
+
+```
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+}
+```
+
+#### 集成卡片                                                                                                                                                   
+
+来自不同类型的卡片的款式可以组合起来创建高级卡片。 卡片也可以使用自定义CSS。 以下是通过将各种卡属性与少量自定义CSS相结合构建的几个高级卡片。
+
+其中包括:
+
+* [Social Cards](http://ionicframework.com/docs/components/#card-advanced-social)\(社交卡片\)
+* [Map Cards](http://ionicframework.com/docs/components/#card-advanced-map)\(地图卡片\)
+
+##### 社交卡片                                                                                                                                                                                      [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/advanced-social)
+
+通常需要在应用程序中创建社交卡片。 使用卡片中不同项目的组合可以实现这一点。
+
+![](/assets/社交卡片ios.png)![](/assets/社交卡片Android.png)
+
+```
+<ion-card>
+
+  <ion-item>
+    <ion-avatar item-start>
+      <img src="img/marty-avatar.png">
+    </ion-avatar>
+    <h2>Marty McFly</h2>
+    <p>November 5, 1955</p>
+  </ion-item>
+
+  <img src="img/advance-card-bttf.png">
+
+  <ion-card-content>
+    <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>
+  </ion-card-content>
+
+  <ion-row>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="thumbs-up"></ion-icon>
+        <div>12 Likes</div>
+      </button>
+    </ion-col>
+    <ion-col>
+      <button ion-button icon-left clear small>
+        <ion-icon name="text"></ion-icon>
+        <div>4 Comments</div>
+      </button>
+    </ion-col>
+    <ion-col center text-center>
+      <ion-note>
+        11h ago
+      </ion-note>
+    </ion-col>
+  </ion-row>
+
+</ion-card>
+```
+
+##### 地图卡片                                                                                                                                                                                             [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/advanced-map)
+
+可以使用ionic组件的组合来创建显示为地图的卡片。
+
+![](/assets/地图卡ios.png)![](/assets/地图卡片Android.png)
+
+```
+<ion-card>
+
+  <img src="img/advance-card-map-madison.png">
+  <ion-fab right top>
+    <button ion-fab>
+      <ion-icon name="pin"></ion-icon>
+    </button>
+  </ion-fab>
+
+  <ion-item>
+    <ion-icon name="football" item-start large></ion-icon>
+    <h2>Museum of Football</h2>
+    <p>11 N. Way St, Madison, WI 53703</p>
+  </ion-item>
+
+  <ion-item>
+    <ion-icon name="wine" item-left large ></ion-icon>
+    <h2>Institute of Fine Cocktails</h2>
+    <p>14 S. Hop Avenue, Madison, WI 53703</p>
+  </ion-item>
+
+  <ion-item>
+    <span item-left>18 min</span>
+    <span item-left>(2.6 mi)</span>
+    <button ion-button icon-left clear item-end>
+      <ion-icon name="navigate"></ion-icon>
+      Start
+    </button>
+  </ion-item>
+
+</ion-card>
+```
 
 
 
