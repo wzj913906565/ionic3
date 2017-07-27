@@ -496,11 +496,109 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 </ion-card>
 ```
 
-#### 列表卡片                                                                                                                                                  示例代码
+#### 列表卡片                                                                                                                                                  [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/list)
 
-#### 含图片卡片                                                                                                                                              示例代码
+卡可以包含项目列表。 在卡片内容中添加列表组件以显示列表：
 
-#### 背景图片卡片                                                                                                                                           示例代码
+![](/assets/列表卡片ios.png)![](/assets/列表卡片Android.png)
+
+```
+<ion-card>
+  <ion-card-header>
+    Explore Nearby
+  </ion-card-header>
+
+  <ion-list>
+    <button ion-item>
+      <ion-icon name="cart" item-start></ion-icon>
+      Shopping
+    </button>
+
+    <button ion-item>
+      <ion-icon name="medical" item-start></ion-icon>
+      Hospital
+    </button>
+
+    <button ion-item>
+      <ion-icon name="cafe" item-start></ion-icon>
+      Cafe
+    </button>
+
+    <button ion-item>
+      <ion-icon name="paw" item-start></ion-icon>
+      Dog Park
+    </button>
+
+    <button ion-item>
+      <ion-icon name="beer" item-start></ion-icon>
+      Pub
+    </button>
+
+    <button ion-item>
+      <ion-icon name="planet" item-start></ion-icon>
+      Space
+    </button>
+
+  </ion-list>
+</ion-card>
+```
+
+#### 含图片卡片                                                                                                                                              [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/image)
+
+图像的大小通常有所不同，因此在整个应用程序中采用一致的风格很重要。 图片可以轻松添加到卡片中。 将图像添加到卡片中将给予图像一个指定的宽度和一个可变的高度。 列表，标题和其他卡组件可以轻松地与图像卡组合。 要将图像添加到卡中，请使用以下代码：
+
+![](/assets/含有图片卡片ios.png)![](/assets/含图片的卡片Android.png)
+
+```
+<ion-card>
+  <img src="img/nin-live.png"/>
+  <ion-card-content>
+    <ion-card-title>
+      Nine Inch Nails Live
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+</ion-card>
+```
+
+#### 背景图片卡片                                                                                                                                           [示例代码](https://github.com/ionic-team/ionic-preview-app/tree/master/src/pages/cards/background)
+
+卡片可用于实现多种设计。 我们提供许多元素来实现常见的设计，但有时需要添加自定义样式。 将背景图像添加到卡片中是一个完美的例子，说明如何添加自定义样式可以实现完全不同的外观。
+
+![](/assets/背景图片ios.png)![](/assets/背景图片Android.png)
+
+```
+<ion-content class="card-background-page">
+
+  <ion-card>
+    <img src="img/card-saopaolo.png"/>
+    <div class="card-title">São Paulo</div>
+    <div class="card-subtitle">41 Listings</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="img/card-amsterdam.png"/>
+    <div class="card-title">Amsterdam</div>
+    <div class="card-subtitle">64 Listings</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="img/card-sf.png"/>
+    <div class="card-title">San Francisco</div>
+    <div class="card-subtitle">72 Listings</div>
+  </ion-card>
+
+  <ion-card>
+    <img src="img/card-madison.png"/>
+    <div class="card-title">Madison</div>
+    <div class="card-subtitle">28 Listings</div>
+  </ion-card>
+
+</ion-content>
+```
 
 #### 集成卡片                                                                                                                                                   示例代码
 
