@@ -448,5 +448,16 @@ color属性设置按钮的颜色。 Ionic包括许多默认颜色，可以轻松
 
 卡片是显示重要内容的好方法，并且迅速成为应用程序的核心设计模式。 它们是控制和组织信息的好方法，同时也为用户设定了可预见的期望。 随着这么多的内容能够立即显示，并且经常这么小的屏幕不可靠，卡已经成为许多公司的选择的设计模式，包括Google，Twitter和Spotify等。
 
-对于移动端，卡片可以轻松地通过许多不同的屏幕尺寸在视觉上显示相同的信息。 它们允许更多的控制，灵活，甚至可以动画。 卡通常放置在彼此之间，但也可以像“页面”一样使用，并在左，右之间滑动。
+对于移动端，卡片可以轻松地通过许多不同的屏幕尺寸在视觉上显示相同的信息。 它们允许更多的控制，灵活，甚至可以动画。 动画常放置在彼此之间，但也可以像“页面”一样使用，并在左，右之间滑动。
+
+其中包括:
+
+* [Basic Cards](http://ionicframework.com/docs/components/#cards)\(基本卡片\)
+* [Card Headers](http://ionicframework.com/docs/components/#card-header)
+* [Card Lists](http://ionicframework.com/docs/components/#card-list)
+* [Card Images](http://ionicframework.com/docs/components/#card-image)
+* [Background Images](http://ionicframework.com/docs/components/#card-background)
+* [Advanced Cards](http://ionicframework.com/docs/components/#advanced-cards)
+
+
 
